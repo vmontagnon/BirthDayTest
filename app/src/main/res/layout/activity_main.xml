@@ -23,12 +23,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/bouton_suivant"
         android:layout_alignParentRight="true"
         android:fontFamily="sans-serif"
         android:padding="10sp"
         android:text="from Vincent"
         android:textColor="@android:color/white"
         android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/bouton_suivant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Carte Suivante" />
 
 </RelativeLayout>
